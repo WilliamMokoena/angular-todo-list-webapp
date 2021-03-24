@@ -1,0 +1,15 @@
+
+mat-grid-list {
+  position: absolute;
+  width: 70vw;
+  height: auto;
+  top: 20vh;
+  left: 50vw;
+  transform: translate(-50%);
+
+  mat-grid-tile mat-card{
+    height: 70%;
+    width: 60%;
+    background-color: #424242cc;
+  }
+}
