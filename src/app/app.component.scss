@@ -9,6 +9,7 @@ div.app-bkg{
     height: 100vh;
     transform: translate(-50%);
     object-fit: fill;
+
     filter: brightness(80%);
   }
 }
@@ -31,5 +32,22 @@ div.application{
     width: 80px;
     height: 80px;
     background-color: #de3163;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  div.application{
+
+    h2{
+      transform: translate(-50%, 10vh);
+      margin: 0 0 0 50%;
+      width: 150px;
+      font-size: 18px;
+    }
+
+    #btn-cont button{
+      width: 60px;
+      height: 60px;
+    }
   }
 }

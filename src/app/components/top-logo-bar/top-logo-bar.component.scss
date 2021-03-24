@@ -18,3 +18,10 @@ div{
     padding-top: 10px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  div{
+    width: 100vw;
+    transform: translate(0%);
+  }
+}
